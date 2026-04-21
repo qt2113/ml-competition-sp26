@@ -200,6 +200,10 @@ include only codes whose price data was fetched successfully. If a new CSI500
 constituent doesn't yet have history available through akshare's sina
 backend, it is dropped from your universe — you cannot select it.
 
+**Heads up — the effective universe is 499 stocks, not 500.** Downloading
+one constituent was unstable, so we omit it. Your universe is whatever ends
+up in `constituents.csv`.
+
 ### Updating data during the competition
 
 The competition runs for multiple weeks, so new trading days become available
