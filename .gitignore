@@ -1,3 +1,4 @@
+.env
 __pycache__/
 *.pyc
 .venv/
@@ -10,3 +11,4 @@ trading/
 .claude/
 .mcp.json
 CLAUDE.md
+nul

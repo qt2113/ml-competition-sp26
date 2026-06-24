@@ -38,11 +38,12 @@ All deadlines are **China Standard Time (UTC+8)**.
 | Date | Event |
 | --- | --- |
 | Tue 2026-04-21 | Competition launches. Data snapshot available. |
-| Sun 2026-05-03 23:59 | **Submission 1 deadline** (Gradescope) |
+| Mon 2026-05-04 23:59 | **Submission 1 deadline** (Gradescope) |
 | Wed–Fri 2026-05-06 to 05-08 | **Evaluation window 1** (3 trading days) |
 | Sun 2026-05-10 23:59 | **Submission 2 deadline** (Gradescope) |
+| Mon 2026-05-11 23:59 | **Report deadline** |
 | Mon–Fri 2026-05-11 to 05-15 | **Evaluation window 2** (5 trading days) |
-| TBD | Report deadline and final results announced |
+
 
 The A-share market is closed for the Labor Day holiday (May 1–5, 2026), which
 is why evaluation window 1 starts on Wednesday May 6.
@@ -71,7 +72,11 @@ Final grade is weighted across four components:
 
 | Weight | Component | How it is graded |
 | --- | --- | --- |
-| **40%** | Report | Written report documenting method, experiments, and results. Detailed rubric will be released separately. |
+| **40%** | Report | Written report documenting method, experiments, and results. Your report must explain:
+Factors: what signals you used and why;
+Models: how you trained the prediction model and built the portfolio;
+Results: how well it performed on held-out data and relative to the baseline;
+Analysis: what worked, what did not, and why. Each counts 25% of the report score.|
 | **25%** | Self-test | Student must split the provided data into **training / validation / test** sets and report their model's performance on the test set. Graded on (a) soundness of the ML methodology (proper splitting, no leakage, sensible validation) and (b) whether the reported test performance exceeds the provided baseline. |
 | **5%** | Live evaluation 1 (May 6–8) | Ranking-based: score is a function of where the student's portfolio ranks by excess return over this 3-day window. |
 | **30%** | Live evaluation 2 (May 11–15) | Ranking-based: score is a function of where the student's portfolio ranks by excess return over this 5-day window. |

@@ -1,0 +1,9 @@
+timestamp,note,config,n_windows,n_5d,pos_5d,avg_5d,std_5d,win_rate,verdict,Feb-W1_er,Feb-W2_er,Feb-W3_er,Feb-W4_er,Mar-W1_er,Mar-W2_er,Mar-W3_er,Mar-W4_er,Apr-W1_er,Apr-W2_er,Apr-W3_er,May-W1-Sub1_er
+21:19:40,B2,model=lgbm nl=8 lam=1.0 col=0.5 ensemble=True extra=-,10,9,7,0.770,1.163,0.78,OK (acceptable but not stellar),+0.185,+1.898,,,-0.643,-0.710,+0.127,+1.489,+2.876,+0.150,+1.557,-1.706
+21:22:50,B2,model=lgbm nl=8 lam=1.0 col=0.5 ensemble=True extra=-,11,10,5,-0.181,1.614,0.50,WEAK (likely overfit to recent data),+0.185,-2.373,+2.099,-2.306,-0.225,+1.272,+0.312,-0.952,+2.128,-1.947,-1.706
+21:22:54,Sub1,model=lgbm nl=8 lam=0.1 col=0.7 ensemble=True extra=-,11,10,5,-0.323,1.604,0.50,WEAK (likely overfit to recent data),+0.127,-2.345,+1.765,-2.228,-0.297,+0.403,+0.312,-0.496,+2.263,-2.730,-1.886
+21:23:16,B2+F5,"model=lgbm nl=8 lam=1.0 col=0.5 ensemble=True extra=vol_5d,vol_ratio_5_60",11,10,3,-0.315,1.236,0.30,WEAK (likely overfit to recent data),+0.198,-1.001,+1.434,-1.104,-0.203,-0.645,-0.338,-1.664,+2.159,-1.990,-2.038
+21:41:39,R-K30,model=lgbm nl=8 lam=1.0 col=0.5 ensemble=True extra=-,11,10,6,-0.108,2.125,0.60,WEAK (likely overfit to recent data),+0.345,-2.643,+2.823,-3.478,+0.037,+0.893,+0.960,-0.815,+3.173,-2.377,-1.615
+21:44:00,R-K30-EXP,model=lgbm nl=8 lam=1.0 col=0.5 ensemble=True extra=-,11,10,6,0.100,2.429,0.60,OK (acceptable but not stellar),+0.910,-1.989,+3.615,-3.592,+0.358,+0.384,+0.466,-0.750,+4.404,-2.810,+0.420
+21:46:29,R-EXP-only,model=lgbm nl=8 lam=1.0 col=0.5 ensemble=True extra=-,11,10,5,-0.215,1.968,0.50,WEAK (likely overfit to recent data),+0.443,-2.165,+2.637,-3.279,+0.164,+0.522,-0.002,-0.934,+3.000,-2.536,+0.326
+21:48:55,R-T3,model=lgbm nl=8 lam=1.0 col=0.5 ensemble=True extra=-,11,10,5,-0.181,1.614,0.50,WEAK (likely overfit to recent data),+0.185,-2.373,+2.099,-2.306,-0.225,+1.272,+0.312,-0.952,+2.128,-1.947,-1.706

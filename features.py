@@ -59,7 +59,7 @@ NEUTRALIZE_COLS = [
     "margin_buy_ratio", "margin_bal_chg",  # 融资行为有行业聚集性，需去除板块均值
 ]
 
-TARGET_COLUMN    = "target_5d"   # 对齐 Submission 1 的 3 天评测窗口（5月6-8日）
+TARGET_COLUMN    = "target_5d"   # 对齐 Submission 2 的 5 天评测窗口（5月11-15日）
 FORWARD_HORIZON  = 5
 
 
